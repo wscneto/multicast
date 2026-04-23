@@ -1,5 +1,7 @@
 # Sistema Multicast (Aula de Sistemas Distribuidos)
 
+Obs.: feito utilizando IA
+
 Este projeto implementa comunicacao **UDP multicast** simples:
 
 - `sender.py`: envia mensagens para um grupo multicast.
