@@ -69,17 +69,3 @@ Escutar por uma interface especifica (quando necessario):
 ```bash
 python receiver.py --interface 192.168.0.20
 ```
-
-## Solucao de problemas (importante para apresentacao)
-
-- Celular e computador precisam estar na **mesma Wi-Fi**.
-- Alguns roteadores bloqueiam multicast em modo de economia/isolamento de cliente.
-- Em algumas redes, desativar dados moveis no celular ajuda a forcar rota pelo Wi-Fi.
-- Se nao receber nada, teste primeiro dois receptores no proprio notebook para validar o script.
-
-## Roteiro de apresentacao (30-60s)
-
-1. Abra `receiver.py` no celular e inicie a escuta.
-2. No notebook, envie uma mensagem com `sender.py`.
-3. Mostre a mesma mensagem aparecendo no celular em tempo real.
-4. Explique: "Um emissor, varios receptores, sem conexao ponto-a-ponto".
